@@ -24,10 +24,3 @@ class FixedArray
   end
 
 end
-
-puts 'yoooooo'
-
-arr = FixedArray.new(5)
-puts arr
-arr.set(3, 'yo')
-p arr.get(3)
